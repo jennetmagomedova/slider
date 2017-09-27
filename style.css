@@ -1,0 +1,49 @@
+#slider-box{
+    width:450px;
+    height:400px;
+    overflow:hidden;
+    margin: 30px auto;
+}
+#slider{
+    position:relative;
+    width:10000px;
+    height:400px;
+}
+#slider div{
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    width:150px;
+}
+#slider div:checked{
+    border:1px solid black;
+}
+#slider p{
+    word-wrap: break-word;
+}
+#slider-box #prev, #slider-box #next{
+    position:absolute;
+    top:150px;
+    display:block;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+}
+#slider-box #prev{
+    left:300px;
+    background:url("images/arrow_left.png") no-repeat;
+}
+#slider-box #next{
+    right:300px;
+    background:url("images/arrow_right.png") no-repeat;
+}
+table{
+    display: none;
+    text-align: center;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+table td,th{
+    border:1px solid black;
+    padding: 2px;
+}
